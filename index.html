@@ -21,18 +21,15 @@
 			<li>建立管理员帐户：manage createsuperuser</li>
 			<li>运行服务器：manage runserver 80</li>
 			<li>登陆</li>
-			<li>设计blog数据表
-				<p>在blog/models中添加类<br />
-				class BlogPost(models.Model):
+			<li>设计blog数据表：在blog/models中添加类，
+				class BlogPost(models.Model): 
 					title=models.CharField(max_length=100)
 					body=models.TextField()
 					timestamp=models.DateTimeField()
-				</P>
 			</li>
-			<li>数据同步
-				<p>manage makemigrations blog<br />
+			<li>数据同步：
+				manage makemigrations blog
 				manage migrate
-				</p>
 			</li>
 			<li〉未完待续...</li>
 		</ol>
